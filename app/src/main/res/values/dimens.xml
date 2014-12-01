@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nexus5_total_dp">445dp</dimen>
+    <dimen name="nexus5_portion">111dp</dimen>
+    <dimen name="piece_row_height">29dp</dimen>
+</resources>

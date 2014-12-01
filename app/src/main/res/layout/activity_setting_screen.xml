@@ -1,0 +1,134 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_span="3">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/settings1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/settings1"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/seekValue"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical" />
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_column="2"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/settings2"
+            android:id="@+id/textView2"
+            android:layout_column="0"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="30dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical" />
+
+        <Switch
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/switch1"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:layout_marginRight="100dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="1">
+
+        <!--android:layout_marginBottom="50dp"-->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="30dp"
+            android:text="@string/settings3"
+            android:id="@+id/textView3"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="30dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical" />
+
+        <Switch
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/switch2"
+            android:layout_marginRight="100dp"
+            android:layout_column="2"
+            android:layout_weight="1" />
+    </TableRow>
+
+
+</TableLayout>
+
+
