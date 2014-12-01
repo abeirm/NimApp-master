@@ -188,7 +188,7 @@ public class GameScreen extends Activity implements View.OnClickListener{
                 }
 
 
-//HEY WOOOO COMMent
+//HEY WOOOO COM
 
 
             }
